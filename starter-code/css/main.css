@@ -1,10 +1,107 @@
 /*
 Colors to use:
-dark blue: #06365f
+dark blue: #
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative; }
+
+.phones {
+  float: left;
+  margin: 7.5% 3%;
+  width: 45vw;
+  height: 80vh;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .phones img {
+    display: block;
+    margin: 0 auto;
+    float: right;
+    height: 100%;
+    width: auto; }
+
+.container {
+  float: left;
+  margin: 7.5% auto;
+  width: 45vw;
+  height: 80vh;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .container .brandContainer {
+    height: 15%;
+    width: 70%;
+    padding: 0;
+    display: block; }
+    .container .brandContainer img {
+      display: inline-block;
+      margin: 0 auto;
+      position: relative;
+      top: 15%;
+      padding: 0 auto; }
+    .container .brandContainer button {
+      display: inline-block;
+      height: 5vh;
+      font-size: .8rem;
+      background-color: #06365f;
+      border-color: transparent;
+      color: white;
+      position: relative;
+      right: -20%;
+      bottom: 5%;
+      border-radius: 5px;
+      padding: 2%;
+      text-align: right;
+      margin: 0  auto; }
+      .container .brandContainer button img {
+        height: auto;
+        width: auto;
+        margin: -.2rem auto;
+        padding: 0;
+        position: relative;
+        top: 15%; }
+  .container .detailsContainer {
+    background: url(../images/frame.png) no-repeat;
+    background-size: 100% 100%;
+    height: 80%;
+    width: 70%; }
+    .container .detailsContainer h1 {
+      text-align: left;
+      width: 50%;
+      height: auto;
+      margin: 0 5%;
+      position: relative;
+      top: 10%; }
+    .container .detailsContainer p {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      position: relative;
+      top: 15%;
+      display: block; }
+    .container .detailsContainer img {
+      position: relative;
+      top: 25%;
+      left: 5%; }
+
+footer {
+  height: 10vh;
+  width: 100vw;
   margin: 0;
-}
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 80%; }
+  footer nav {
+    background-color: red;
+    margin: 0;
+    display: block; }
+    footer nav ul {
+      background-color: yellow;
+      display: block;
+      height: 10vh;
+      margin: auto 0; }
+      footer nav ul li {
+        display: inline-block; }
+        footer nav ul li a {
+          margin: 0 auto; }
